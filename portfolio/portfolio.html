@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PERSONAL PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/54c45e3052.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="" alt="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="headertext">
+                <p>Frontend Developer,</p>
+                <h1>Hi, I'm <span>Vrashbh</span><br>Soni From India</h1>
+                <div class="cover">
+                    <img src="" alt="">
+                </div>
+            </div>
+        </div>
+        <!-- ---------about section -->
+    </div>
+    
+    <div id="about">
+        <div class="container">
+            <div class="row1">
+                <div class="aboutcol1">
+                    <img src="WhatsApp Image 2024-05-22 at 21.28.43_79e497b4.jpg">
+                </div>
+                <div class="aboutcol2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am vrashbh Currently Pursuing B-tech in Computer Science branch.I am From Bikaner Which is
+                        famous for Camel Fest!!I am a Full Stack Web Developer with Learning new experiences daily.I am
+                        Workking From last 6 Months. I completed my education from "R.E.S truly convent" School in Year
+                        2021.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experiences</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>JS/CSS</span><br>Designing Web interfaces</li>
+                            <li><span>Web Development</span><br>Web sites Development</li>
+                            <li><span>Wordpress Developer</span><br>building Websites</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2024 - Current</span><br>Full Stack Developer</li>
+                            <li><span>2023 - 2024</span><br>Frontend Developer</li>
+                            <li><span>2022 - 2023</span><br>Wordpress</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023</span><br>Pursuing B-tech</li>
+                            <li><span>2022</span><br>Completed Sr. Sec</li>
+                            <li><span>2021</span><br>Completed Secondary</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- section------ -->
+    <div id="Services">
+        <div class="container">
+            <h1 class="sub-title">Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Web development involves building and maintaining websites and web applications. It encompasses
+                        tasks ranging from writing code in languages like HTML, CSS, and JavaScript to designing user
+                        interfaces and ensuring seamless functionality across different devices. Developers may
+                        specialize in front-end development, focusing on the visual aspects and user experience, or
+                        back-end development, handling server-side processes and databases. With the continuous
+                        evolution of web technologies, web developers constantly adapt to new tools and frameworks to
+                        create engaging, efficient, and innovative online experiences.
+
+
+
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Frontend Developer</h2>
+                    <p>A frontend developer specializes in building the user-facing aspects of websites and web
+                        applications. This involves creating the layout, design, and interactive features that users
+                        directly interact with. Frontend developers are proficient in HTML, CSS, and JavaScript, the
+                        three core technologies of web development, and often use frameworks and libraries like React,
+                        Vue.js, or Angular to streamline development and enhance functionality. They work closely with
+                        designers to translate visual concepts into code and ensure that websites are visually
+                        appealing, intuitive to navigate, and responsive across different devices and screen sizes. </p>
+                    <a href="#">Learn more</a>
+                </div>
+
+
+                <div>
+                    
+                    <i class="fa-brands fa-web-awesome"></i>
+                    <h2>WordPress Developer</h2>
+                    <p>
+                        A WordPress developer specializes in creating websites and web applications using the WordPress
+                        platform. WordPress is a popular content management system (CMS) that powers a significant
+                        portion of the internet, ranging from blogs and small business websites to large-scale
+                        e-commerce platforms and corporate portals. WordPress developers are proficient in customizing
+                        and extending WordPress functionality through themes, plugins, and custom code.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- ----portfolio -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work1.png.jpg">
+                    <div class="layer">
+                        <h3>GYM Website</h3>
+                        <p>This Website Give The Imporatnce Of GYM In our Daily Life</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work2.png.jpg">
+                    <div class="layer">
+                        <h3>Ashok EnterPrises</h3>
+                        <p>This Website Give Kowledge Of HTML and CSS</p>
+                        <a href="https://vrashbh.netlify.app/"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work3.png.jpg">
+                    <div class="layer">
+                        <h3>Form Website</h3>
+                        <p>Login Form</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- -----contact-->
+    <div id="contact">
+        <div class="container">
+            <div class="row1">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-regular fa-paper-plane"></i>sonivrashbh@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>7878303734</p>
+                    <div class="social-icon">
+                        <a href="https://www.facebook.com/vd.bhai.90?mibextid=ZbWKwL"><i
+                                class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/http.vrashbh._1?igsh=MWRreDNwcmxnM3E4Ng=="><i
+                                class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="VRASHBH SONI.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                       <input type="text" name="Name" placeholder="Your Name" required>
+                       <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit"class="btn btn2">Submit</button>
+                    </form>
+                    <!-- <span id="Msg">Hello</span> -->
+                </div>
+            </div>
+        </div>
+<div class="copyright">
+    <p>Copyright @ Made with <i class="fa-solid fa-heart"></i> by Vrashbh Soni</p>
+</div>
+    </div>
+    <script>
+        // function opentab( event,tabname){
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemennu = document.getElementById("sidemenu");
+      
+        function openmenu(){
+                sidemennu.style.right ="0";
+        }
+        function closemenu(){
+                sidemennu.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
